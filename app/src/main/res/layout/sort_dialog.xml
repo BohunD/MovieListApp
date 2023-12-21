@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_dialog_btn_title"
+        android:text="Title"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/shape_dialog_btn_date"
+        android:text="Released Date"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_dialog_btn_cancel"
+        android:textColor="@color/black"
+        android:text="Cancel"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="15dp"
+        />
+
+</LinearLayout>
